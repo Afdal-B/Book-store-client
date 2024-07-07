@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div>
       <Routes>
-        <Route path="/books" element={<Books_page />} />
+        <Route path="/" element={<Books_page />} />
         <Route path="/edit/:id" element={<Edit_page />} />
         <Route path="/delete/:id" element={<Delete_page />} />
         <Route path="/create" element={<New_book_page />} />
