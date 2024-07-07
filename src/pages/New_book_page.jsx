@@ -34,7 +34,7 @@ const New_book_page = () => {
           progress: undefined,
           theme: "light",
           onClose: () => {
-            window.location.href = "/books";
+            window.location.href = "/";
           },
         });
       })
@@ -50,7 +50,7 @@ const New_book_page = () => {
           progress: undefined,
           theme: "light",
           onClose: () => {
-            window.location.href = "/books";
+            window.location.href = "/";
           },
         });
       });

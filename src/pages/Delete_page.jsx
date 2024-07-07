@@ -32,7 +32,7 @@ const Delete_page = () => {
           progress: undefined,
           theme: "light",
           onClose: () => {
-            window.location.href = "/books";
+            window.location.href = "/";
           },
         });
       })
@@ -48,7 +48,7 @@ const Delete_page = () => {
           progress: undefined,
           theme: "light",
           onClose: () => {
-            window.location.href = "/books";
+            window.location.href = "/";
           },
         });
       });
@@ -68,7 +68,7 @@ const Delete_page = () => {
           </button>
           <button
             onClick={() => {
-              window.location.href = "/books";
+              window.location.href = "/";
             }}
             className="bg-gray-500 text-white py-2 px-4 rounded-md shadow-sm hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
           >

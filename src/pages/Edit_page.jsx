@@ -65,7 +65,7 @@ const Edit_page = () => {
           progress: undefined,
           theme: "light",
           onClose: () => {
-            window.location.href = "/books";
+            window.location.href = "/";
           },
         });
       });

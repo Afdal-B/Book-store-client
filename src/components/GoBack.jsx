@@ -5,7 +5,7 @@ const GoBack = () => {
   return (
     <div
       onClick={() => {
-        window.location.href = "/books";
+        window.location.href = "/";
       }}
       className="cursor-pointer flex items-center"
     >
